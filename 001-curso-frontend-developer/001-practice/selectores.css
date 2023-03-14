@@ -1,0 +1,20 @@
+/* decendientes */
+nav ul {
+    color: darkolivegreen;
+}
+
+/* hijos */
+
+section > h1 {
+    background-color: antiquewhite;
+}
+
+/* next item */
+nav + section {
+    border-top: 1px solid black;
+}
+
+/*hermano despues de otro elemento*/
+h1 ~ p {
+    color: aqua;
+}
