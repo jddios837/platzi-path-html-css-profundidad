@@ -1,0 +1,19 @@
+nav {
+    background-color: red;
+    color: yellow;
+
+    padding: 10px;
+}
+
+.myMenu {
+    color: white;
+    background-color: blue;
+}
+
+#cat-name {
+    font-size: 50px;
+}
+
+* {
+    font-size: 9px;
+}
