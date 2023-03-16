@@ -1,0 +1,17 @@
+p {
+    color: aqua;
+}
+p::first-letter {
+    color: green;
+}
+p::before {
+    content: "- ";
+}
+/* seudoclase hover */
+p:hover {
+    color: brown;
+}
+
+div p:nth-child(2) {
+    color: violet;
+}
